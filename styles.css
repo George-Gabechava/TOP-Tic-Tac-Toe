@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tictactoe-grid {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+    /* width: 75%;
+    height: 75%; */
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+
+    background-color: rgb(100, 100, 100);
+}
+
+.cell{
+    background-color: white;
+    border: none;
+    font-size: 150px;
+
+    height: 200px;
+    width: 200px;
+
+    padding: 10px;
+    
+    /* border-bottom: 1px solid black; */
+    
+    
+}
+
+.cell:hover {
+    background-color: lightblue;
+}
+
+#cellValue7, #cellValue8, #cellValue9 {
+    /* border-bottom: none; */
+}
+
+body {
+    background-color: lightgrey;
+
+}
+
+p, a {
+    font-size: larger;
+}
+
+/*
+#cellValue1, #cellValue2, #cellValue3, #cellValue4, #cellValue5, #cellValue6, 
+#cellValue7, #cellValue8, #cellValue9
+*/
