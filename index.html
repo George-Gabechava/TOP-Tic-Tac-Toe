@@ -8,6 +8,19 @@
 </head>
 <body>
     <div class="container">
+        <div class="head">
+            <form>
+            <label for="firstPlayer">First Player</label>
+            <input type="text" id="firstPlayer" name="firstPlayer" placeholder="Player1">
+            
+            <label for="secondPlayer">Second Player </label>
+            <input type="text" id="secondPlayer" name="secondPlayer" placeholder="Player2">
+            
+            <button id="submitBtn" value="default" onclick="TicTacToe.updatePlayers(document.getElementById('firstPlayer').value, document.getElementById('secondPlayer').value)">Submit</button>
+            
+            </form>
+
+        </div>
         <div class="tictactoe-grid">
                 <button class="cell" id="cellValue1" onclick="TicTacToe.select(1)"></button>
                 <button class="cell" id="cellValue2" onclick="TicTacToe.select(2)"></button>
@@ -18,19 +31,19 @@
                 <button class="cell" id="cellValue7" onclick="TicTacToe.select(7)"></button>
                 <button class="cell" id="cellValue8" onclick="TicTacToe.select(8)"></button>
                 <button class="cell" id="cellValue9" onclick="TicTacToe.select(9)"></button>
-            </div>
-
+        </div>
+        <div class="below">
+            <div id="resultDisplay"></div>
+            <button id="resetBtn" value="default" onclick="TicTacToe.reset()">Reset</button>
         </div>
     </div>
 
     
 </body>
 <footer>
-    <br>
-  <br>
   <br>
   <p> Author: <a href="https://github.com/George-Gabechava">George Gabechava</a></p>
-  <p> <a href="https://github.com/George-Gabechava/TOP-Book-List">Source Code</a></p>
+  <p> <a href="https://github.com/George-Gabechava/TOP-Tic-Tac-Toe">Source Code</a></p>
   <p>Created for The Odin Project</p>
   <br>
 

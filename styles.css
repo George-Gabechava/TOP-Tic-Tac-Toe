@@ -8,12 +8,9 @@
     margin-top: 50px;
     margin-bottom: 20px;
 
-
-    /* width: 75%;
-    height: 75%; */
     display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 175px 175px 175px;
+    grid-template-columns: 175px 175px 175px;
     justify-content: center;
     align-content: center;
     gap: 10px;
@@ -26,31 +23,56 @@
     border: none;
     font-size: 150px;
 
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
 
-    padding: 10px;
-    
-    /* border-bottom: 1px solid black; */
-    
-    
 }
 
 .cell:hover {
     background-color: lightblue;
 }
 
-#cellValue7, #cellValue8, #cellValue9 {
-    /* border-bottom: none; */
-}
-
 body {
     background-color: lightgrey;
+}
 
+.head {
+    margin-top: 20px;
+}
+
+#submitBtn {
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.below {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#resetBtn {
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: cyan;
+    border-radius: 40px;
+}
+
+.below {
+    display: flex;
+    flex-direction: column;
 }
 
 p, a {
-    font-size: larger;
+    font-size: large;
+}
+
+#resultDisplay {
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 /*
